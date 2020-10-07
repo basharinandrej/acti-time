@@ -17,9 +17,8 @@ module.exports = {
         new htmlWebpackPlugin({
             template: './src/index.html'
         }),
-        // в dist создадим файл
         new MiniCssExtractPlugin({
-            filename: 'main.css'
+            filename: 'css/main.css'
         })
     ],
     module: {
@@ -27,9 +26,16 @@ module.exports = {
             {
                 test: /\.s[ac]ss$/,
                 use: [
-                    {
-                        loader: MiniCssExtractPlugin.loader
-                    }, 'css-loader', 'sass-loader']
+                    { loader: MiniCssExtractPlugin.loader},
+                        'css-loader', 'sass-loader']
+            },
+            {
+                test: /\.(svg|png|gif)$/,
+                loader: 'file-loader',
+                options: {
+                    name: '[name].[ext]',
+                    outputPath: 'img'
+                }
             }
         ]
     }

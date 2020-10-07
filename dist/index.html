@@ -4,25 +4,182 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Acti-time</title>
-<link href="main.css" rel="stylesheet"></head>
-<body>
+<link href="css/main.css" rel="stylesheet"></head>
+<body class="body">
+
+    <header class="body__header header">
+        <div class="header__container container">
+
+            <a href="#" class="header__main-logo main-logo"></a>
+
+            <nav class="header__main-menu main-menu">
+                <ul class="main-menu__alist">
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link active">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">
+                            Help
+                        </a>
+          
+                        <svg width="10" height="6" role="img" class="main-menu__arrow">
+                            <use xlink:href="./img/sprite.svg#icon-arrow"/>
+                        </svg>
+                    </li>
+
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">
+                            Features
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <button class="header__main-btn main-btn">
+                Sign Up
+            </button>
+
+        </div>
+    </header>
     
 
-    <h4 class="title">
-        title
-        <span class="title__span">span
-            <p class="title__paragraph">
-                paragraph
+    <section class="body__main-section main-section">
+        <div class="main-section__container container">
+
+            <h1 class="main-section__title title">
+                Features
+            </h1>
+
+            <p class="main-section__paragraph">
+                Some of the features and advantages that we provide for those of you who store data in this Data Warehouse.
             </p>
-        </span>
-    </h4>
 
-    <div class="box">
-        <div class="box__text">
-            1222
+            <div class="main-section__main-slider main-slider">
+                <div class="main-slider__slide">
+                    <div class="main-slider__card-slide card-slide">
+                        <span class="card-slide__cnt">1</span>
+                        <!-- <p class="card-slide__mark">
+                            New
+                        </p> -->
+                        <h2 class="card-slide__title title">
+                            First Feature
+                        </h2>
+    
+                        <p class="card-slide__paragraph">
+                            Little Red Cap opened her eyes and when she saw the sunbeams dancing to and fro through the trees and how the ground was covered with beautiful flowers.
+                        </p>
+    
+                        <a href="#" class="card-slide__link">
+                            <b>Learn more</b>
+    
+                            <img src="./img/vector.png" class="card-slide__arrow"> 
+                        </a>
+                    </div>
+
+                    <div class="main-slider__card-slide card-slide">
+                        <span class="card-slide__cnt">2</span>
+                        <p class="card-slide__mark">
+                            New
+                        </p>
+                        <h2 class="card-slide__title title">
+                            First Feature
+                        </h2>
+    
+                        <p class="card-slide__paragraph">
+                            Little Red Cap opened her eyes and when she saw the sunbeams dancing to and fro through the trees and how the ground was covered with beautiful flowers.
+                        </p>
+    
+                        <a href="#" class="card-slide__link">
+                            <b>Learn more</b>
+    
+                            <img src="./img/vector.png" class="card-slide__arrow"> 
+                        </a>
+                    </div>
+                </div>
+
+                <div class="main-slider__slide">
+                    <div class="main-slider__card-slide card-slide">
+                        <span class="card-slide__cnt">3</span>
+                        <!-- <p class="card-slide__mark">
+                            New
+                        </p> -->
+                        <h2 class="card-slide__title title">
+                            First Feature
+                        </h2>
+    
+                        <p class="card-slide__paragraph">
+                            Little Red Cap opened her eyes and when she saw the sunbeams dancing to and fro through the trees and how the ground was covered with beautiful flowers.
+                        </p>
+    
+                        <a href="#" class="card-slide__link">
+                            <b>Learn more</b>
+    
+                            <img src="./img/vector.png" class="card-slide__arrow"> 
+                        </a>
+                    </div>
+
+                    <div class="main-slider__card-slide card-slide">
+                        <span class="card-slide__cnt">4</span>
+                        <p class="card-slide__mark">
+                            New
+                        </p>
+                        <h2 class="card-slide__title title">
+                            First Feature
+                        </h2>
+    
+                        <p class="card-slide__paragraph">
+                            Little Red Cap opened her eyes and when she saw the sunbeams dancing to and fro through the trees and how the ground was covered with beautiful flowers.
+                        </p>
+    
+                        <a href="#" class="card-slide__link">
+                            <b>Learn more</b>
+    
+                            <img src="./img/vector.png" class="card-slide__arrow"> 
+                        </a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
+    </section>
+    
+   <footer class="body__footer footer">
+        <div class="footer__container container">
 
+            <a href="#" class="footer__main-logo main-logo"></a>
+
+            <nav class="footer__main-menu main-menu">
+                <ul class="main-menu__alist">
+                    <li class="main-menu__item main-menu__item--gap">
+                        <a href="#" class="main-menu__link">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li class="main-menu__item">
+                        <a href="#" class="main-menu__link">
+                            Privacy Policy
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="footer__wrapper">
+                <input  type="text" 
+                        placeholder="Enter your email"
+                        class="footer__main-input main-input">
+
+                <button class="header__main-btn main-btn main-btn--warning main-btn--small">
+                    Sign Up Now
+                </button>
+            </div>
+
+        </div>
+   </footer>
 
 <script src="bundle.js"></script></body>
 </html>
