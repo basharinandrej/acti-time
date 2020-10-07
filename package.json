@@ -1,0 +1,28 @@
+{
+  "name": "acti-time",
+  "version": "1.0.0",
+  "description": "test in company \"Acti-Time\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [
+    "html",
+    "sass",
+    "scss"
+  ],
+  "author": "basharin andrej <basharin_andrej@mail.ru>",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^0.11.3",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

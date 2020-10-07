@@ -1,0 +1,16 @@
+.title {
+    font-size: 42px;
+    &__paragraph {
+        color: green
+    };
+    &__span {
+        color: red;
+    }
+} 
+
+.box {
+    border:1px solid red;
+    &__text {
+        color: pink;
+    }
+}
