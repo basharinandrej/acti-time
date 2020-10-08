@@ -1,6 +1,8 @@
 // imports start
 
+
 @import "_slick.scss";
+
 
 // imports end
 
@@ -14,6 +16,7 @@
 
 .body {
     background: #fff;
+    font-family: 'Roboto';
     &__main-section {
         margin-bottom: 151px;
     }
@@ -150,6 +153,9 @@ h2.title {
         font-size: 18px;
         line-height: 160%;
         color: #212353;
+        &--font-weight {
+            font-weight: 400;
+        }
     }
     &__arrow {
         margin-left: 4px;
@@ -271,8 +277,8 @@ h2.title {
 }
 
 .main-slider .slick-list  {
-    height: 330px;
-    padding-top: 20px;
+    height: 350px;
+    padding-top: 10px;
 }
 
 .card-slide {
