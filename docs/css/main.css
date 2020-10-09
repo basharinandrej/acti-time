@@ -165,8 +165,10 @@ h2.title {
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
   color: #FFFFFF;
-  cursor: pointer; }
+  cursor: pointer; 
+}
   .main-btn:hover {
     background: #B17FF4;
     transition: .3s; }
