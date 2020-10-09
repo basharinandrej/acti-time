@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --mode development --open --port 3001"
+    "start": "webpack-dev-server --mode development --open --port 3000"
   },
   "keywords": [
     "html",
