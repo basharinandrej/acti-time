@@ -65,7 +65,7 @@ $('.close-icon--js').click( function() {
 var acc = document.getElementsByClassName('dropdown-btn');
 var i;
 for (i = 0; i < acc.length; i++) {
-    acc[i].onclick = function (e) {
+    acc[i].click = function (e) {
         e.preventDefault();
         this.classList.toggle("active");
         var id = $(this).attr('data-dropdown');
