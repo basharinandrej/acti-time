@@ -43,7 +43,7 @@ $('.main-slider').slick({
 
 $('.burger--js').click( function(e) {
     e.preventDefault();
-    $('.header__main-btn').addClass('translateX-50').css('left', '50%').css('bottom', '20px').css('top', 'auto');
+    $('.header__main-btn').addClass('translateX-50').css('left', '50%').css('bottom', '20px').css('top', 'auto').css('z-index', '1');
     $('.header__main-menu').addClass('translateX');
     $(this).hide();
     $('.close-icon--js').show();
@@ -61,11 +61,13 @@ $('.close-icon--js').click( function() {
 
 
 
+
+
 /* Дропдаун высоты */
 var acc = document.getElementsByClassName('dropdown-btn');
 var i;
 for (i = 0; i < acc.length; i++) {
-    acc[i].click = function (e) {
+    acc[i].onclick = function (e) {
         e.preventDefault();
         this.classList.toggle("active");
         var id = $(this).attr('data-dropdown');
